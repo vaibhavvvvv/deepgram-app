@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  background-color: #000000;
+}
+
+.textc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ant-card .ant-card-head {
+  color: rgb(251, 126, 255)
+}
+
+.loading-card {
+  filter: blur(3px); 
+  opacity: 0.7; 
+  pointer-events: none; 
+}
+
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 1px 4px rgb(214, 214, 255);
+  transition: background 0.3s ease;
+}
+
+.glassmorphism:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
